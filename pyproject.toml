@@ -1,0 +1,24 @@
+[project]
+name = "central_pension_avalokan_engine"
+version = "0.9.8"
+description = "A tool to analyze retirement financial health for Indian central government employees"
+authors = [
+    { name="Nithin", email="nithinmchrl@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.scripts]
+pension-corpus-calculator = "central_pension_avalokan_engine.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

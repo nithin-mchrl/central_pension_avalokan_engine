@@ -24,6 +24,13 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Vim swap files
+*.swp
+*.swo
+*.swn
+*.swx
+.*.swp
+.*.swo
 
 # Sphinx documentation
 docs/_build/
